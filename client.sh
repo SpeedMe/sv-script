@@ -2,7 +2,7 @@
 echo "deb http://shadowvpn.org/debian wheezy main">>/etc/apt/sources.list
 apt-get update
 apt-get install -y --force-yes  shadowvpn
-sed -i "s/CONFFILE="/etc/shadowvpn/server.conf"/CONFFILE="/etc/shadowvpn/client.conf"/" "/etc/default/shadowvpn"
+sed -i "s/CONFFILE=\"\/etc\/shadowvpn\/server.conf\"/CONFFILE=\"\/etc\/shadowvpn\/client.conf\"/" "/etc/default/shadowvpn"
 sudo update-rc.d shadowvpn disable
 read -p "shadowvpn password: " password
 sed -i "s/password=my_password/password=$password/" "/etc/shadowvpn/client.conf"
