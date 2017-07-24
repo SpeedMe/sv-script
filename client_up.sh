@@ -19,7 +19,7 @@ iptables -I FORWARD 1 -o $intf -j ACCEPT
 
 # Direct route to VPN server's public IP via current gateway
 ip route add $server via $(ip route show 0/0 | sed -e 's/.* via \([^ ]*\).*/\1/')
-. ./us_routes_up.sh
+. /etc/shadowvpn/us_routes_up.sh
 # Shadow default route using two /1 subnets
 
 echo 'namesever 8.8.8.8' > /etc/reslov.conf
