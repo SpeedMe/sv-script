@@ -14,7 +14,7 @@ iptables -D FORWARD -o $intf -j ACCEPT
 
 # Restore routing table
 ip route del $server
-source /etc/shadowvpn/us_routes_down.sh
+. ./us_routes_down.sh
 echo 'namesever 114.114.114.114' > /etc/reslov.conf
 
 echo $0 done
