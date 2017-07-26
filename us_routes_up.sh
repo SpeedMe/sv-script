@@ -993,6 +993,7 @@ route add -net 119.12.0.0 netmask 255.252.0.0 dev tun1
 route add -net 119.17.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 119.18.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 119.24.0.0 netmask 255.252.0.0 dev tun1 
+route add -net 119.28.34.0 netmask 255.255.255.0 dev tun1 
 route add -net 119.29.29.29 netmask 255.255.255.255 dev tun1 
 route add -net 119.30.0.0 netmask 255.254.0.0 dev tun1 
 route add -net 119.37.128.0 netmask 255.255.128.0 dev tun1 
