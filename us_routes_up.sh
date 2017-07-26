@@ -1589,7 +1589,6 @@ route add -net 171.128.0.0 netmask 255.192.0.0 dev tun1
 route add -net 171.192.0.0 netmask 255.240.0.0 dev tun1 
 route add -net 171.224.0.0 netmask 255.224.0.0 dev tun1 
 route add -net 172.0.0.0 netmask 255.240.0.0 dev tun1 
-route add -net 172.10.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 172.32.0.0 netmask 255.224.0.0 dev tun1 
 route add -net 172.64.0.0 netmask 255.192.0.0 dev tun1 
 route add -net 172.128.0.0 netmask 255.128.0.0 dev tun1 
