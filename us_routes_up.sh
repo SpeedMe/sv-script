@@ -299,7 +299,7 @@ route add -net 47.93.117.0 netmask 255.255.255.0 dev tun1
 route add -net 47.93.118.0 netmask 255.255.254.0 dev tun1 
 route add -net 47.93.120.0 netmask 255.255.248.0 dev tun1 
 route add -net 47.93.128.0 netmask 255.255.128.0 dev tun1 
-route add -net 47.94.0.0 netmask 255.254.0.0 dev tun1 
+route add -net 47.95.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 47.96.0.0 netmask 255.224.0.0 dev tun1 
 route add -net 47.128.0.0 netmask 255.128.0.0 dev tun1 
 route add -net 48.0.0.0 netmask 255.0.0.0 dev tun1 
