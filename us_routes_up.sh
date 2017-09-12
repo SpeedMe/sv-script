@@ -309,6 +309,8 @@ route add -net 49.16.0.0 netmask 255.240.0.0 dev tun1
 route add -net 49.32.0.0 netmask 255.240.0.0 dev tun1 
 route add -net 49.48.0.0 netmask 255.254.0.0 dev tun1 
 route add -net 49.50.0.0 netmask 255.255.0.0 dev tun1 
+route add -net 49.51.33.0 netmask 255.255.255.0 dev tun1
+route add -net 49.51.34.0 netmask 255.255.255.0 dev tun1 
 route add -net 49.56.0.0 netmask 255.248.0.0 dev tun1 
 route add -net 49.96.0.0 netmask 255.240.0.0 dev tun1 
 route add -net 49.124.0.0 netmask 255.252.0.0 dev tun1 
@@ -925,6 +927,7 @@ route add -net 117.18.0.0 netmask 255.255.128.0 dev tun1
 route add -net 117.18.128.0 netmask 255.255.192.0 dev tun1 
 route add -net 117.18.192.0 netmask 255.255.224.0 dev tun1 
 route add -net 117.18.224.0 netmask 255.255.248.0 dev tun1 
+route add -net 117.18.232.0 netmask 255.255.255.0 dev tun1 
 route add -net 117.18.233.0 netmask 255.255.255.0 dev tun1 
 route add -net 117.18.234.0 netmask 255.255.254.0 dev tun1 
 route add -net 117.18.236.0 netmask 255.255.252.0 dev tun1 
@@ -975,6 +978,7 @@ route add -net 118.176.0.0 netmask 255.254.0.0 dev tun1
 route add -net 118.179.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 118.185.0.0 netmask 255.255.0.0 dev tun1 
 route add -net 118.189.0.0 netmask 255.255.0.0 dev tun1 
+route add -net 118.193.254.0 netmask 255.255.255.0 dev tun1
 route add -net 118.200.0.0 netmask 255.254.0.0 dev tun1 
 route add -net 118.208.0.0 netmask 255.252.0.0 dev tun1 
 route add -net 118.214.0.0 netmask 255.254.0.0 dev tun1 
