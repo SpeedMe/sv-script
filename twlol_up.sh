@@ -1,3 +1,4 @@
+#! /bin/bash
 route add -net 23.62.109.0 netmask 255.255.255.0 dev tun 
 route add -net 23.62.236.0 netmask 255.255.255.0 dev tun 
 route add -net 23.111.9.0 netmask 255.255.255.0 dev tun 
