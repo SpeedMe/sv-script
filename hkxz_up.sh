@@ -443,6 +443,7 @@ route add -net 111.108.54.0 netmask 255.255.255.0 dev tun
 route add -net 112.121.84.0 netmask 255.255.255.0 dev tun 
 route add -net 112.121.88.0 netmask 255.255.255.0 dev tun 
 route add -net 112.121.157.0 netmask 255.255.255.0 dev tun 
+route add -net 119.28.34.0 netmask 255.255.255.0 dev tun
 route add -net 122.11.128.0 netmask 255.255.255.0 dev tun 
 route add -net 124.108.136.0 netmask 255.255.255.0 dev tun 
 route add -net 124.108.137.0 netmask 255.255.255.0 dev tun 
